@@ -11,6 +11,10 @@
 		D832012728899B6E00A19A46 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D832012628899B6E00A19A46 /* ContentView.swift */; };
 		D832012928899B7000A19A46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D832012828899B7000A19A46 /* Assets.xcassets */; };
 		D832012C28899B7000A19A46 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D832012B28899B7000A19A46 /* Preview Assets.xcassets */; };
+		D8E6654028899C3A00FD6FE4 /* CenterAPIResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E6653F28899C3A00FD6FE4 /* CenterAPIResponse.swift */; };
+		D8E6654328899C6900FD6FE4 /* Center.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E6654228899C6900FD6FE4 /* Center.swift */; };
+		D8E6654528899FA300FD6FE4 /* CenterAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E6654428899FA300FD6FE4 /* CenterAPI.swift */; };
+		D8E665482889A12200FD6FE4 /* CenterNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E665472889A12200FD6FE4 /* CenterNetwork.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		D832012628899B6E00A19A46 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D832012828899B7000A19A46 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D832012B28899B7000A19A46 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D8E6653F28899C3A00FD6FE4 /* CenterAPIResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenterAPIResponse.swift; sourceTree = "<group>"; };
+		D8E6654228899C6900FD6FE4 /* Center.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Center.swift; sourceTree = "<group>"; };
+		D8E6654428899FA300FD6FE4 /* CenterAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenterAPI.swift; sourceTree = "<group>"; };
+		D8E665472889A12200FD6FE4 /* CenterNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenterNetwork.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +61,8 @@
 			children = (
 				D832012428899B6E00A19A46 /* FindCoronaCenterApp.swift */,
 				D832012628899B6E00A19A46 /* ContentView.swift */,
+				D8E6654628899FB400FD6FE4 /* Network */,
+				D8E6654128899C3F00FD6FE4 /* Entities */,
 				D832012828899B7000A19A46 /* Assets.xcassets */,
 				D832012A28899B7000A19A46 /* Preview Content */,
 			);
@@ -65,6 +75,24 @@
 				D832012B28899B7000A19A46 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D8E6654128899C3F00FD6FE4 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				D8E6653F28899C3A00FD6FE4 /* CenterAPIResponse.swift */,
+				D8E6654228899C6900FD6FE4 /* Center.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		D8E6654628899FB400FD6FE4 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				D8E6654428899FA300FD6FE4 /* CenterAPI.swift */,
+				D8E665472889A12200FD6FE4 /* CenterNetwork.swift */,
+			);
+			path = Network;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +165,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8E6654328899C6900FD6FE4 /* Center.swift in Sources */,
+				D8E665482889A12200FD6FE4 /* CenterNetwork.swift in Sources */,
+				D8E6654528899FA300FD6FE4 /* CenterAPI.swift in Sources */,
 				D832012728899B6E00A19A46 /* ContentView.swift in Sources */,
+				D8E6654028899C3A00FD6FE4 /* CenterAPIResponse.swift in Sources */,
 				D832012528899B6E00A19A46 /* FindCoronaCenterApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

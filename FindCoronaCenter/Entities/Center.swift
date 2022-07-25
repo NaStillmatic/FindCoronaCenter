@@ -16,7 +16,7 @@ struct Center: Hashable, Decodable {
   let lat: String
   let lng: String
   let centerType: CenterType
-  let phonNumber: String
+  let phoneNumber: String
   
   enum CenterType: String, Decodable {
     case central = "중앙/권역"

@@ -16,7 +16,7 @@ struct SelectRegionItem: View {
       Color(white: 0.9)
       VStack {
         Text(region.rawValue)
-          .font(.title)
+          .font(.title3)
           .fontWeight(.bold)
           .foregroundColor(.purple)
         Text("\(count)")
